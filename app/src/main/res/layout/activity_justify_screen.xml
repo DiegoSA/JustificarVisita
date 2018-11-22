@@ -123,25 +123,27 @@
                         android:orientation="vertical">
 
                         <RadioGroup
+                            android:id="@+id/radioGroupStatus"
                             android:layout_width="match_parent"
-                            android:layout_height="78dp">
+                            android:layout_height="78dp"
+                            >
 
                             <RadioButton
-                                android:id="@+id/radioButton3"
+                                android:id="@+id/radioButtonPositivado"
                                 android:layout_width="250dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="Positivado" />
 
                             <RadioButton
-                                android:id="@+id/radioButton2"
+                                android:id="@+id/radioButtonWaiting"
                                 android:layout_width="250dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:text="Aguardando Resposta de Cotação" />
 
                             <RadioButton
-                                android:id="@+id/radioButton"
+                                android:id="@+id/radioButtonDenied"
                                 android:layout_width="250dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -184,13 +186,12 @@
                             android:textSize="18sp" />
 
                         <EditText
-                            android:id="@+id/editText"
+                            android:id="@+id/editTextMotivo"
                             android:layout_width="259dp"
                             android:layout_height="98dp"
                             android:layout_weight="1"
                             android:ems="10"
-                            android:inputType="textMultiLine"
-                            tools:text="efetuou a compra hoje" />
+                            android:inputType="textMultiLine" />
                     </LinearLayout>
 
                 </LinearLayout>
